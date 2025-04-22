@@ -8,6 +8,6 @@ public class ExpenseTrackerCLI {
             System.out.println(e);
         }
 
-        System.out.println("Total Spent: ₹" + tracker.totalAmount());
+        System.out.println("Total Spent: rs." + tracker.totalAmount());
     }
 }
