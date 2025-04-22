@@ -1,5 +1,5 @@
 #!/bin/bash
-expected="Total Spent: ₹30.0"
+expected="Total Spent: rs.30.0"
 actual=$(grep "Total Spent" output.txt)
 
 if [[ "$actual" == "$expected" ]]; then
